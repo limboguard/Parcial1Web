@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+#logo {
+  font-size: 40px;
+  font-family: "Satisfy", cursive;
+}
+
+#header-nav {
+  margin-top: 8px;
+  justify-content: space-between;
+}
+
+#shopping-cart-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#cart-counter {
+  margin: 0 24px 0 4px;
+}
+
+#card-grid {
+  justify-content: center;
+}
+
+#confirm-order {
+  background-color: #F3E8DD;
+}
+
+#cancel-order {
+  background-color: #FB565B;
+}
+
+#delete-products {
+  background-color: #F3E8DD;
+}
+
+#keep-products {
+  background-color: #FB565B;
+}
+
+#total-price {
+  color: black;
+  display: inline;
+}
+
+#order-buttons {
+  position: absolute;
+  right: 32px;
+  top: 8px;
+}
+
+.card {
+  padding-bottom: 70px;  
+}
+
+.card-col {
+  margin-bottom: 16px;
+}
+
+.item-footer {
+  position: absolute;
+  bottom: 16px;
+}
+
+footer {
+  margin-top: 32px;
+}
+
+caption {
+  position: relative;
+}
